@@ -1,47 +1,64 @@
+<!DOCTYPE html>
 <html>
-<head> 
-    <title> First Website </title>
-</head>
-<style>
-    body{
-        background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4eHrahkcCITYf0YwJafifmelGkdHT6S2DCw&s);
+<head>
+    <title>Biography</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image:url(https://img.freepik.com/free-vector/bokeh-bubbles-sun-flash-blue-background_1182-1744.jpg);
             background-repeat:no-repeat;
             background-attachment:fixed;
-            background-size:cover
-    }
-    .container {
-        display: flex;
-        align-items: left;
-        justify-content: left;
-    }
-    image {
-        max-width: 100%;
-        max-height: 100%;
-    }
-    .text {
-        font-size: 30px;
-        padding-left: 20px;
-    }
+            background-size:cover;
+            
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto; 
+        }
+
+        .profile-image {
+            float: right; 
+            width: 150px; 
+            height: auto; 
+            border-radius: 50%; 
+            margin-left: 0; 
+            margin-top: 0; 
+        }
+
+        .text {
+            font-size: 18px;
+            line-height: 2;
+        }
     </style>
-    <body>
-        <h1 style="text-align: center"> Biography </h1>
-        <div class="container">
-            <div class="image">
-                <h1> Meowster Cat </h1>
-                <img src="https://i.imgur.com/lyOOg8b_d.webp?maxwidth=520&shape=thumb&fidelity=high">
-            </div>
-            <div class="text">
-                <address>
-                    013 Quack Road <br>
-                    Ludgate House <br>
-                    USA,Texas <br>
-                    Email:Firstname@gmail.com<br>
-                    telephone: 0111-222-3333 <br>
-                </address>
-                <h3> About me:</h3>
-                <p> Lorem ipsum dolor sit amet. Et mollitia officia sed porro officiis est Quis galisum in perferendis aperiam et dolorem reprehenderit vel similique tenetur. Ut Quis sapiente aut repudiandae dolorum eos laborum soluta in necessitatibus modi et repudiandae eligendi aut dolorem pariatur. Est aliquam voluptatem est quia consectetur aut impedit asperiores qui tempore mollitia. Ea culpa magnam id illo</p>
-                
-            </div>
+</head>
+<body>
+    <div class="container">
+        <img src="./My face.jpg" alt="Profile Image" class="profile-image">
+        <div class="text">
+            <h1>Louie Lamando</h1>
+            <address>
+                013 Quack Road<br>
+                Ludgate House<br>
+                USA, Texas<br>
+                Email: Firstname@gmail.com<br>
+                Telephone: 0111-222-3333<br>
+            </address>
+            <h3>About Me:</h3>
+            <p>
+                Hello! My name is Louie, and I’m currently a first-year Information Technology (IT) student. I’m passionate about technology and its potential to solve real-world problems. Through my studies, I’m gaining foundational knowledge in programming, web development, and systems analysis, and I’m eager to expand my skills in areas like cybersecurity, artificial intelligence, and software engineering.
+            </p>
+            <h3> Hard skills: </h3>
+            <p> Proficient in Python <br>
+                Intermediate knowledge in Java <br>
+                Basic knowledge in C++
+            </p>
+            <h3> Soft skills: </h3>
+            <p> Intermediate skills in communication and leadership <br>
+                knows the fundamentals of Drawing
+            </p>
+            
         </div>
-    </body>
+    </div>
+</body>
 </html>
